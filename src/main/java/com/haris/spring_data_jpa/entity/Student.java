@@ -24,7 +24,7 @@ public class Student {
             allocationSize = 1
     )
     @GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "student_sequence")
-    private long studentId;
+    private Long studentId;
     private String firstName;
     private String lastName;
     @Column(name = "email_address", nullable = false)
